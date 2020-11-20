@@ -1,0 +1,6 @@
+﻿Source.obj : error LNK2001: símbolo externo @__security_check_cookie@4 sin resolver
+Source.obj : error LNK2001: símbolo externo __imp__exit sin resolver
+Source.obj : error LNK2001: símbolo externo __imp__glClear@4 sin resolver
+Source.obj : error LNK2001: símbolo externo __imp__glFlush@0 sin resolver
+LINK : error LNK2001: símbolo externo _mainCRTStartup sin resolver
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Release\Practica2.exe : fatal error LNK1120: 5 externos sin resolver
