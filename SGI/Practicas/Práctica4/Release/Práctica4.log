@@ -1,0 +1,40 @@
+﻿  Source.cpp
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(17,52): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(17,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(18,48): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(18,15): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(19,52): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(19,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(20,48): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(20,15): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(21,52): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(21,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(22,48): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(22,15): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(23,52): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(23,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(24,48): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(24,15): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(28,51): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(28,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(29,47): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(29,15): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(30,51): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(30,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(31,47): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(31,15): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(32,51): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(32,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(33,47): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(33,15): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(34,51): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(34,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(35,47): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(35,15): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Práctica4\Source.cpp(84,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  2 of 20 functions (10.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Práctica4.vcxproj -> D:\Users\Daiant\Documents\SGI\Practicas-SGI\Release\Práctica4.exe

@@ -1,0 +1,22 @@
+﻿  Source.cpp
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(5,69): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(6,69): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(10,22): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(15,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(20,45): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(20,26): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(27,37): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(27,18): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(28,37): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(28,18): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(49,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(61,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(73,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(85,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica3\Source.cpp(95,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  2 of 10 functions (20.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Practica3.vcxproj -> D:\Users\Daiant\Documents\SGI\Practicas-SGI\Release\Practica3.exe
