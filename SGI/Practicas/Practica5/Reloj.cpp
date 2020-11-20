@@ -4,6 +4,7 @@
 #include <cmath>
 #include <freeglut.h>
 #include <sstream>
+#include <time.h>
 using namespace std;
 
 static const float radio = 5.0; // radio de giro de la cámara
@@ -12,22 +13,40 @@ static float ojo[] = { 0, 0, radio }; // posicion inicial de la camara
 static const float velocidad = 24.0 * 3.1415926 / 180; // radianes/segundo
 static const float frames = 60; // para cambiar la frecuencia de movimiento cambiar aquí 
 static float r_segundos = 0.0, r_minutos = 0.0, r_horas = 0.0;
+double time()
+{
+	time_t timer;
+	struct tm y2k = { 0 };
+	double seconds;
+
+	y2k.tm_hour = 0;   y2k.tm_min = 0; y2k.tm_sec = 0;
+	y2k.tm_year = 100; y2k.tm_mon = 0; y2k.tm_mday = 1;
+
+	time(&timer);  /* get current time; same as: timer = time(NULL)  */
+
+	seconds = difftime(timer, mktime(&y2k));
+
+	//printf("%.f seconds since January 1, 2000 in the current timezone", seconds);
+
+	return seconds;
+}
 void onTimer(int valor)
 {
-	//tiempo transcurrido ultima vez
-	static int antes = 0;
-	int ahora, tiempo_transcurrido;
-
-	ahora = glutGet(GLUT_ELAPSED_TIME);
-	tiempo_transcurrido = ahora - antes;
-	r_segundos -= 6 / frames; // cada segundo son 6 grados en sentido antihorario pero a 60fps - > 0.1 grados
-	r_minutos -= 6 / frames / 60; // 60 por el minuto que ha de pasar
-	r_horas -= (6 / frames / 60 / 60 ) * 12; // el reloj tiene 12 horas flipao
-
-
-
-
-	antes = ahora;
+	//Versión ultrafluida
+	//r_segundos -= 6 / frames; // cada segundo son 6 grados en sentido antihorario pero a 60fps - > 0.1 grados
+	//r_minutos -= 6 / frames / 60; // 60 por el minuto que ha de pasar
+	//r_horas -= (6 / frames / 60 / 60 ) * 12; // el reloj tiene 12 horas flipao
+	
+	double seconds = time();
+	//Versión normal la de siempre
+	/*r_horas = -std::fmod((seconds + 3600 * 6) / 3600.0, 60) * 6;
+	r_minutos = -std::fmod(seconds / 60.0, 60) * 6;
+	r_segundos = -std::fmod(seconds,60) / 1.0 * 6;*/
+	//Versión que cada cosa se mueve cada segundo, minuto u hora
+	r_horas = -floor(seconds/3600)*6*5;
+	//r_horas = -floor(90/60)*6*5;
+	r_minutos = -floor(std::fmod(seconds / 60.0, 60)) * 6;
+	r_segundos = -std::fmod(seconds, 60) / 1.0 * 6;
 
 	glutTimerFunc(1000 / frames, onTimer, frames);
 
@@ -42,12 +61,7 @@ void marcas() {
 	for (int i = 0; i < 60; i++) 
 	{
 		glPushMatrix();
-		//glRotatef(-i*6, 0, 0, 1);
-		
-		
-		
-		//glScalef(0.2, 0.2, 0.2);
-		//glTranslatef(radio * sin(i), radio * cos(i), 0);
+
 		glRotatef(-i * 6, 0, 0, 1);
 		if (i % 5 == 0) { altura = 0.3; ancho = 0.15; }
 		else { altura = 0.2; ancho = 0.1; }
@@ -143,7 +157,6 @@ void muestraFPS()
 void init()
 {
 	cout << "Version: OpenGL " << glGetString(GL_VERSION) << endl;
-
 	glClearColor(1.0, 1.0, 1.0, 1.0);
 	glEnable(GL_DEPTH_TEST);
 }
