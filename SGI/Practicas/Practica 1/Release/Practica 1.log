@@ -1,0 +1,2 @@
+﻿  Source.cpp
+D:\Users\Daiant\Documents\SGI\Practicas-SGI\Practica 1\Source.cpp(23,34): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
